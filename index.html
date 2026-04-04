@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enzo Mantay — Tourism Director & Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">Enzo Mantay</span>
+      <ul class="nav-links">
+        <li><a href="#about"    data-i18n="nav_about">About</a></li>
+        <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+        <li><a href="#skills"   data-i18n="nav_skills">Skills</a></li>
+        <li><a href="#contact"  data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <button id="lang-toggle" aria-label="Switch language">ES</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-label" data-i18n="hero_label">Tourism Director & Full Stack Developer</p>
+        <h1>Enzo Mantay</h1>
+        <p class="hero-sub" data-i18n="hero_sub">
+          Bridging 20+ years of tourism expertise with modern web development.
+          Building real digital solutions for the tourism industry.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary"   data-i18n="hero_btn1">View Projects</a>
+          <a href="#contact"  class="btn-secondary" data-i18n="hero_btn2">Get in Touch</a>
+        </div>
+        <div class="hero-location">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Jardín América, Misiones, Argentina
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="enzo-mantay.jpg" alt="Enzo Mantay" />
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="about_tag">About me</span>
+        <h2 data-i18n="about_title">Where tourism meets technology</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n="about_p1">
+            I currently serve as <strong>Municipal Tourism Director of Jardín América</strong>, Misiones, Argentina — a role I approach not just as a public administrator, but as someone who believes that technology is the most powerful tool for transforming how destinations are managed and experienced.
+          </p>
+          <p data-i18n="about_p2">
+            I hold a <strong>Bachelor's degree in Tourism</strong> and a <strong>Diploma in Smart Tourism Destination Management</strong> from UNaM. At some point, I realized the digital tools I needed didn't exist — so I built them myself.
+          </p>
+          <p data-i18n="about_p3">
+            Today I develop full stack web applications with a focus on real-world impact in the tourism sector. My flagship project, <strong>TuriGest JA</strong>, is a municipal tourism management system currently live and in use in Jardín América.
+          </p>
+          <p data-i18n="about_p4">
+            I'm open to <strong>remote freelance projects</strong> at the intersection of tourism and web development.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">20+</span>
+            <span class="stat-label" data-i18n="stat1">Years in Tourism</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">4</span>
+            <span class="stat-label" data-i18n="stat2">Projects Deployed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">1</span>
+            <span class="stat-label" data-i18n="stat3">Live Municipal System</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2</span>
+            <span class="stat-label" data-i18n="stat4">University Degrees</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="projects_tag">Work</span>
+        <h2 data-i18n="projects_title">Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-badge" data-i18n="badge_live">Live Project</div>
+          <div class="project-info">
+            <h3>TuriGest JA</h3>
+            <p data-i18n="proj1_desc">Municipal tourism management system currently in production for Jardín América. Handles visitor registration, event management, hotel occupancy analytics, WhatsApp integration, and automated monthly reports.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>HTML/CSS</span><span>Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="https://turigest-ja.web.app" target="_blank" class="btn-project" data-i18n="btn_live">View Live</a>
+              <a href="https://github.com/enzomantay-del/TuriGest-JA" target="_blank" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Ferretería El Ángulo</h3>
+            <p data-i18n="proj2_desc">Full e-commerce platform with product catalog, shopping cart, and a complete admin panel for inventory and order management.</p>
+            <div class="project-tags">
+              <span>Node.js</span><span>Express</span><span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/enzomantay-del/ferreteria-el-angulo" target="_blank" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Olala Viajes</h3>
+            <p data-i18n="proj3_desc">Travel agency website featuring a tour package catalog and a booking system built with Python and Django.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Django</span><span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/enzomantay-del/olala-viajes" target="_blank" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Jardín América Turismo</h3>
+            <p data-i18n="proj4_desc">Static promotional website showcasing the tourist destinations and attractions of Jardín América, Misiones.</p>
+            <div class="project-tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/enzomantay-del/jardin-america-turismo" target="_blank" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="skills_tag">Expertise</span>
+        <h2 data-i18n="skills_title">Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-group">
+          <h4>Frontend</h4>
+          <ul><li>HTML5</li><li>CSS3</li><li>JavaScript (Vanilla)</li></ul>
+        </div>
+        <div class="skills-group">
+          <h4>Backend</h4>
+          <ul><li>Node.js</li><li>Express</li><li>Python</li><li>Django</li></ul>
+        </div>
+        <div class="skills-group">
+          <h4 data-i18n="skill_db">Databases & Cloud</h4>
+          <ul><li>Firebase Realtime DB</li><li>Firebase Hosting</li><li>SQLite</li></ul>
+        </div>
+        <div class="skills-group">
+          <h4>Tools</h4>
+          <ul><li>Git & GitHub</li><li>REST APIs</li><li>WhatsApp API</li></ul>
+        </div>
+        <div class="skills-group">
+          <h4 data-i18n="skill_tourism">Tourism</h4>
+          <ul>
+            <li data-i18n="sk_t1">Destination Management</li>
+            <li data-i18n="sk_t2">Smart Tourism</li>
+            <li data-i18n="sk_t3">Public Administration</li>
+            <li data-i18n="sk_t4">Tourism Planning</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h4 data-i18n="skill_biz">Business</h4>
+          <ul>
+            <li data-i18n="sk_b1">Entrepreneurship</li>
+            <li data-i18n="sk_b2">Teaching</li>
+            <li data-i18n="sk_b3">Project Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="contact_tag">Contact</span>
+        <h2 data-i18n="contact_title">Let's work together</h2>
+        <p class="section-desc" data-i18n="contact_desc">Available for remote freelance projects in tourism technology.</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/enzo-mantay-3602a6314/" target="_blank" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/enzomantay-del" target="_blank" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://turigest-ja.web.app" target="_blank" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span>TuriGest JA</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Enzo Mantay · Jardín América, Misiones, Argentina</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
