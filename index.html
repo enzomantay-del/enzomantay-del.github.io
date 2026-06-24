@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Enzo Mantay — Tourism Director & Full Stack Developer</title>
+  <title>Enzo Mantay — Full Stack Developer & Tourism Director</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
 </head>
@@ -27,11 +27,11 @@
   <section id="hero">
     <div class="hero-content">
       <div class="hero-text">
-        <p class="hero-label" data-i18n="hero_label">Tourism Director & Full Stack Developer</p>
+        <p class="hero-label" data-i18n="hero_label">Full Stack Developer & Tourism Director</p>
         <h1>Enzo Mantay</h1>
         <p class="hero-sub" data-i18n="hero_sub">
-          Bridging 20+ years of tourism expertise with modern web development.
-          Building real digital solutions for the tourism industry.
+          I build production web systems for municipalities, travel agencies and local businesses —
+          from admin panels and databases to WhatsApp integrations and public-facing sites.
         </p>
         <div class="hero-btns">
           <a href="#projects" class="btn-primary"   data-i18n="hero_btn1">View Projects</a>
@@ -65,7 +65,7 @@
             I hold a <strong>Bachelor's degree in Tourism</strong> and a <strong>Diploma in Smart Tourism Destination Management</strong> from UNaM. At some point, I realized the digital tools I needed didn't exist — so I built them myself.
           </p>
           <p data-i18n="about_p3">
-            Today I develop full stack web applications with a focus on real-world impact in the tourism sector. My flagship project, <strong>TuriGest JA</strong>, is a municipal tourism management system currently live and in use in Jardín América.
+            Today I develop full stack web applications with real-world impact — municipal portals, tourism management systems, WhatsApp campaign platforms and e-commerce. Flagship projects include <strong>TuriGest JA</strong>, the <strong>Municipal Portal</strong> and <strong>Olalá Viajes</strong>, all built and deployed by me.
           </p>
           <p data-i18n="about_p4">
             I'm open to <strong>remote freelance projects</strong> at the intersection of tourism and web development.
@@ -77,12 +77,12 @@
             <span class="stat-label" data-i18n="stat1">Years in Tourism</span>
           </div>
           <div class="stat">
-            <span class="stat-number">4</span>
+            <span class="stat-number">8+</span>
             <span class="stat-label" data-i18n="stat2">Projects Deployed</span>
           </div>
           <div class="stat">
-            <span class="stat-number">1</span>
-            <span class="stat-label" data-i18n="stat3">Live Municipal System</span>
+            <span class="stat-number">4</span>
+            <span class="stat-label" data-i18n="stat3">Live Production Systems</span>
           </div>
           <div class="stat">
             <span class="stat-number">2</span>
@@ -106,13 +106,69 @@
           <div class="project-badge" data-i18n="badge_live">Live Project</div>
           <div class="project-info">
             <h3>TuriGest JA</h3>
-            <p data-i18n="proj1_desc">Municipal tourism management system currently in production for Jardín América. Handles visitor registration, event management, hotel occupancy analytics, WhatsApp integration, and automated monthly reports.</p>
+            <p data-i18n="proj1_desc">Municipal tourism management system in production. Visitor registration, events, hotel occupancy analytics, WhatsApp integration and automated monthly reports.</p>
             <div class="project-tags">
-              <span>JavaScript</span><span>HTML/CSS</span><span>Firebase</span>
+              <span>JavaScript</span><span>Firebase</span>
             </div>
             <div class="project-links">
-              <a href="https://turigest-ja.web.app" target="_blank" class="btn-project" data-i18n="btn_live">View Live</a>
-              <a href="https://github.com/enzomantay-del/TuriGest-JA" target="_blank" class="btn-project-ghost">GitHub</a>
+              <a href="https://turigest-ja.web.app" target="_blank" rel="noopener" class="btn-project" data-i18n="btn_live">View Live</a>
+              <a href="https://github.com/enzomantay-del/turigest-ja" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-badge" data-i18n="badge_live">Live Project</div>
+          <div class="project-info">
+            <h3>Directo al vecino</h3>
+            <p data-i18n="proj2_desc">Municipal campaign platform: neighborhood contacts, public form for community leaders, mass WhatsApp sends and delivery/read metrics panel.</p>
+            <div class="project-tags">
+              <span>Next.js</span><span>TypeScript</span><span>Prisma</span><span>Supabase</span>
+            </div>
+            <div class="project-links">
+              <a href="https://sistema-municipal-directoalvecino.netlify.app" target="_blank" rel="noopener" class="btn-project" data-i18n="btn_live">View Live</a>
+              <a href="https://github.com/enzomantay-del/plataforma-campa-a" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-badge" data-i18n="badge_live">Live Project</div>
+          <div class="project-info">
+            <h3>Olalá Viajes</h3>
+            <p data-i18n="proj3_desc">Travel agency management system: clients, multi-service bookings, payments, PDF receipts and public tour catalog with WhatsApp inquiries.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Django</span><span>Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="https://olala-viajes.onrender.com" target="_blank" rel="noopener" class="btn-project" data-i18n="btn_live">View Live</a>
+              <a href="https://github.com/enzomantay-del/olala-viajes" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Portal Municipal</h3>
+            <p data-i18n="proj4_desc">Official municipal portal: news by department, public works maps, citizen reports, admin panels, push notifications and internal staff agenda.</p>
+            <div class="project-tags">
+              <span>Firebase</span><span>Leaflet</span><span>Netlify Functions</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/enzomantay-del/portal-municipal-jardin-america" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Jardín Sale Week</h3>
+            <p data-i18n="proj5_desc">Commercial event platform: merchant registration, offer submission with admin approval, public deals site and tourism circuit sign-ups.</p>
+            <div class="project-tags">
+              <span>Supabase</span><span>Bootstrap</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/enzomantay-del/jardin-sale-week" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
             </div>
           </div>
         </div>
@@ -120,25 +176,12 @@
         <div class="project-card">
           <div class="project-info">
             <h3>Ferretería El Ángulo</h3>
-            <p data-i18n="proj2_desc">Full e-commerce platform with product catalog, shopping cart, and a complete admin panel for inventory and order management.</p>
+            <p data-i18n="proj6_desc">E-commerce with product catalog, shopping cart and admin panel for inventory and order management.</p>
             <div class="project-tags">
               <span>Node.js</span><span>Express</span><span>SQLite</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/enzomantay-del/ferreteria-el-angulo" target="_blank" class="btn-project-ghost">GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-info">
-            <h3>Olala Viajes</h3>
-            <p data-i18n="proj3_desc">Travel agency website featuring a tour package catalog and a booking system built with Python and Django.</p>
-            <div class="project-tags">
-              <span>Python</span><span>Django</span><span>SQLite</span>
-            </div>
-            <div class="project-links">
-              <a href="https://github.com/enzomantay-del/olala-viajes" target="_blank" class="btn-project-ghost">GitHub</a>
+              <a href="https://github.com/enzomantay-del/ferreteria-el-angulo" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
             </div>
           </div>
         </div>
@@ -146,12 +189,26 @@
         <div class="project-card">
           <div class="project-info">
             <h3>Jardín América Turismo</h3>
-            <p data-i18n="proj4_desc">Static promotional website showcasing the tourist destinations and attractions of Jardín América, Misiones.</p>
+            <p data-i18n="proj7_desc">Tourism website showcasing local destinations and attractions, linked from the municipal portal.</p>
             <div class="project-tags">
               <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/enzomantay-del/jardin-america-turismo" target="_blank" class="btn-project-ghost">GitHub</a>
+              <a href="https://enzomantay-del.github.io/jardin-america-turismo/" target="_blank" rel="noopener" class="btn-project" data-i18n="btn_live">View Live</a>
+              <a href="https://github.com/enzomantay-del/jardin-america-turismo" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Ferretería Kozlowzki</h3>
+            <p data-i18n="proj8_desc">B2B commercial proposal and e-commerce demo for a regional hardware store — catalog, cart and staged pricing plans.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>Bootstrap</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/enzomantay-del/propuesta-ferreteria-kozlowzki" target="_blank" rel="noopener" class="btn-project-ghost">GitHub</a>
             </div>
           </div>
         </div>
@@ -170,19 +227,19 @@
       <div class="skills-grid">
         <div class="skills-group">
           <h4>Frontend</h4>
-          <ul><li>HTML5</li><li>CSS3</li><li>JavaScript (Vanilla)</li></ul>
+          <ul><li>HTML5 / CSS3</li><li>JavaScript</li><li>React / Next.js</li><li>TypeScript</li><li>Tailwind / Bootstrap</li></ul>
         </div>
         <div class="skills-group">
           <h4>Backend</h4>
-          <ul><li>Node.js</li><li>Express</li><li>Python</li><li>Django</li></ul>
+          <ul><li>Node.js / Express</li><li>Python / Django</li><li>Prisma ORM</li><li>REST APIs</li></ul>
         </div>
         <div class="skills-group">
           <h4 data-i18n="skill_db">Databases & Cloud</h4>
-          <ul><li>Firebase Realtime DB</li><li>Firebase Hosting</li><li>SQLite</li></ul>
+          <ul><li>Firebase / Firestore</li><li>Supabase / PostgreSQL</li><li>SQLite</li><li>Netlify / GitHub Pages</li></ul>
         </div>
         <div class="skills-group">
-          <h4>Tools</h4>
-          <ul><li>Git & GitHub</li><li>REST APIs</li><li>WhatsApp API</li></ul>
+          <h4>Integrations</h4>
+          <ul><li>WhatsApp Cloud API</li><li>Google Analytics</li><li>Leaflet Maps</li><li>Push Notifications (FCM)</li></ul>
         </div>
         <div class="skills-group">
           <h4 data-i18n="skill_tourism">Tourism</h4>
@@ -211,14 +268,18 @@
       <div class="section-header">
         <span class="section-tag" data-i18n="contact_tag">Contact</span>
         <h2 data-i18n="contact_title">Let's work together</h2>
-        <p class="section-desc" data-i18n="contact_desc">Available for remote freelance projects in tourism technology.</p>
+        <p class="section-desc" data-i18n="contact_desc">Available for remote freelance and developer roles. Municipal, tourism and e-commerce projects.</p>
       </div>
       <div class="contact-links">
-        <a href="https://www.linkedin.com/in/enzo-mantay-3602a6314/" target="_blank" class="contact-card">
+        <a href="mailto:enzomantay@gmail.com" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <span>Email</span>
+        </a>
+        <a href="https://www.linkedin.com/in/enzo-mantay-3602a6314/" target="_blank" rel="noopener" class="contact-card">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
           <span>LinkedIn</span>
         </a>
-        <a href="https://github.com/enzomantay-del" target="_blank" class="contact-card">
+        <a href="https://github.com/enzomantay-del" target="_blank" rel="noopener" class="contact-card">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
           <span>GitHub</span>
         </a>
